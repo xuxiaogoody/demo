@@ -15,8 +15,7 @@ public class HelloController {
     @ResponseBody
     public String getData(){
         System.out.println("xuxiao");
-        System.out.println("laopo");
-        System.out.println("miku");
+        System.out.println("mimi");
         return "test branch";
     }
 }
