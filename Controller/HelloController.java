@@ -16,6 +16,7 @@ public class HelloController {
     public String getData(){
         System.out.println("xuxiao");
         System.out.println("laopo");
+        System.out.println("miku");
         return "test branch";
     }
 }
