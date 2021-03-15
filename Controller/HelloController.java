@@ -11,6 +11,12 @@ public class HelloController {
     public String login() {
         return "Hello, SpringBoot With Docker";
     }
+    @RequestMapping("/test")
+    @ResponseBody
+    public String getData(){
+        System.out.println("xuxiao");
+        return "test branch";
+    }
 }
 
 
